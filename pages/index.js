@@ -116,11 +116,14 @@ export default function Home() {
             </p>
           </div>
           <div className="lg:flex gap-10">
-            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
+            <Link href="components/reactCert" passHref>
+            
+            <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1 cursor-pointer">
               <Image alt="" src={design} />
 
               <p className="py-2">React JS</p>
             </div>
+            </Link>
             <div className="text-center shadow-lg p-10 rounded-xl my-10  dark:bg-white flex-1">
               <div className="mt-6">
                 <Image alt="" src={code} />

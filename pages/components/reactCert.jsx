@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Image from "next/image";
-import reactPic from "../../public/reactPic.png";
+import fscert from "../../public/fs-cert.png";
 
 function ReactCert() {
   return (
@@ -13,7 +13,7 @@ function ReactCert() {
           </Link>
         </span>
         <div className="">
-          <Image src={reactPic} priority alt="react certificate" />
+          <Image src={fscert} priority alt="react certificate" />
         </div>
         <div>
           <button className="p-1 text-red-500 rounded-md border-2 border-red-700 cursor-pointer hover:bg-gray-300">
